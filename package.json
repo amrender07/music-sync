@@ -1,0 +1,15 @@
+{
+    "name": "music-sync",
+    "version": "1.0.0",
+    "description": "A music sync website",
+    "main": "functions/server.js",
+    "scripts": {
+      "start": "node functions/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "serverless-http": "^2.7.0",
+      "socket.io": "^4.0.0"
+    }
+  }
+  

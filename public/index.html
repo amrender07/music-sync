@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen together</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Listen together</h1>
+    <ul id="song-list">
+        <li data-url="songs/song1.mp3">Apna bnale pia</li>
+        <li data-url="songs/song2.mp3">Illahi</li>
+        <li data-url="songs/song3.mp3">Sooraj dooba hai</li>
+        <li data-url="songs/song4.mp3">pehle bhi mai</li>
+        <li data-url="songs/song5.mp3">tera ban jaunga</li>
+    </ul>
+    <audio id="audio-player" controls></audio>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
