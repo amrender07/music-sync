@@ -6,7 +6,8 @@
     
     "scripts": {
       "start": "node functions/server.js",
-      "build": "npm install && npm run build"
+      "build": "npm install && npm run build",
+      "function":"functions"
     },
     "dependencies": {
       "express": "^4.17.1",
