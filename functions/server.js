@@ -31,6 +31,7 @@ io.on('connection', (socket) => {
     console.log('a user connected');
 
     socket.on('play song', (song) => {
+        // Broadcast the 'play song' event to all connected clients
         io.emit('play song', song);
     });
 
